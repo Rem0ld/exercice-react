@@ -5,7 +5,7 @@ import { faSun } from "@fortawesome/free-solid-svg-icons";
 import "../styles/_app.scss";
 import { useDarkMode } from "../../../common/useDarkMode";
 
-function App({ toggleDarkMode }) {
+function App() {
   const [darkMode, setDarkMode] = useDarkMode();
 
   const handleClick = () => {
